@@ -12,8 +12,13 @@ This repository serves two primary purposes:
 
 In this repository, you'll find early projects demonstrating fundamental CRUD functionality across different stacks:
 
-* **[Project Name 1]**: A simple CRUD application built with [Language/Framework] to handle basic data operations.
-* **[Project Name 2]**: Another practice project focusing on user input, database interactions, and API connectivity.
+* **1. User Profile Manager**: A Python script acting as a local database for user account management[cite: 7]. It performs full CRUD operations on a `users.json` file with robust exception handling (`FileNotFoundError`, `JSONDecodeError`) and explicit type hints[cite: 7].
+
+* 
+* **2. Robust Expense Tracker**: A command-line financial tool for tracking daily spending[cite: 8]. It appends categorized expense entries with timestamps into JSON storage and features custom input validation to catch invalid or negative amounts (`ValueError`, `InvalidAmountError`)[cite: 8].
+
+* 
+* **3. Application Log Parser & Summary Generator**: A backend log processing script that reads raw `.txt` server log files line-by-line[cite: 9]. It isolates line-parsing errors gracefully without crashing and exports a formatted `log_summary.json` containing error occurrence metrics[cite: 9].
 
 ---
 
